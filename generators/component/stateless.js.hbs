@@ -1,0 +1,21 @@
+/**
+ *
+ * {{ properCase name }}
+ *
+ */
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const {{ properCase name }} = ({ children }: any) => {
+
+  return (<div>{children}</div>);
+};
+
+{{ properCase name }}.propTypes = {
+  children: PropTypes.oneOfType([
+              PropTypes.arrayOf(PropTypes.node),
+              PropTypes.node
+            ]).isRequired
+}
+
+export default {{ properCase name }};

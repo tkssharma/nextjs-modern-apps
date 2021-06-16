@@ -1,0 +1,41 @@
+{
+  "name": "nextjs-typescript-jest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "jest --watchAll --detectOpenHandles",
+    "generate": "plop --plopfile generators/index.js"
+  },
+  "dependencies": {
+    "mapbox-gl": "^2.3.0",
+    "next": "10.0.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.28.1",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "@types/babel-generator": "^6.25.3",
+    "@types/jest": "^26.0.16",
+    "@types/mapbox-gl": "^2.3.0",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "autoprefixer": "^10.2.6",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.15.0",
+    "eslint-plugin-react": "^7.21.5",
+    "jest": "^26.6.3",
+    "plop": "^2.7.4",
+    "postcss": "^8.3.4",
+    "tailwindcss": "^2.1.4",
+    "typescript": "^4.1.2"
+  }
+}
